@@ -8,6 +8,13 @@ If you get pre-trained vectors in binary format or you have stored them into bin
 convert.c does exactly this.
 
 
-```bash
- gcc convert.c  -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result -o convert -g3
+``` bash
+ # Compile
+ $gcc convert.c  -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result -o convert -g3
 ```
+
+``` bash
+ # Convert
+ $ ./convert <filename>.bin > <filename>.txt
+```
+

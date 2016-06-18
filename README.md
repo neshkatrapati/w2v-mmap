@@ -20,5 +20,19 @@ convert.c does exactly this.
 
 PS : This might take a while
 
-## Install indexer_python 
-Install it from (here)[https://github.com/neshkatrapati/indexer_python]
+## Prerequisites
+* Install indexer_python it from https://github.com/neshkatrapati/indexer_python
+* Install marisa & marisa-trie
+``` bash
+    $ sudo apt-get install marisa
+    $ sudo pip install marisa-trie
+```
+
+## Make Key-Index and Trie
+``` bash
+    $ python make_index.py {filename}
+```
+
+This creates {filename}.kidx (Key-Linenumber index) and {filename}.trie (Trie of the previous file)
+
+

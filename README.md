@@ -10,11 +10,15 @@ convert.c does exactly this.
 
 ``` bash
  # Compile
- $gcc convert.c  -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result -o convert -g3
+ $ gcc convert.c  -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result -o convert -g3
 ```
 
 ``` bash
  # Convert
- $ ./convert <filename>.bin > <filename>.txt
+ $ ./convert {filename}.bin > {filename}.txt
 ```
 
+PS : This might take a while
+
+## Install indexer_python 
+Install it from (here)[https://github.com/neshkatrapati/indexer_python]

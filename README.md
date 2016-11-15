@@ -35,4 +35,11 @@ PS : This might take a while
 
 This creates {filename}.kidx (Key-Linenumber index) and {filename}.trie (Trie of the previous file)
 
+## Make index of the W2V file
+``` bash
+    $ python index_w2vfile.py {filename} 
+```
 
+This creates {filename}.idx 
+
+## Accessing 

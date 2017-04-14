@@ -1,2 +1,2 @@
 https://github.com/neshkatrapati/indexer_python
-marisa-trie
+marisa_trie
